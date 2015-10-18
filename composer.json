@@ -1,0 +1,21 @@
+{
+    "name": "publicfun/cdn77",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "description": "Library providing connection with CDN77 Api",
+    "keywords": ["cdn77", "api"],
+    "homepage": "https://github.com/publicfun/cdn77",
+    "authors": [
+        {
+            "name": "Public Fun s.r.o.",
+            "email": "hruska@publicfun.cz"
+        }
+    ],
+    "autoload": {
+      "classmap": ["src/"]
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "~6.1.0"
+    }
+}
